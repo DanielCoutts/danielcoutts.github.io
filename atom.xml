@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Daniel Coutts</title>
- <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <updated>2017-04-23T22:40:37+01:00</updated>
- <id></id>
+ <link href="http://danielcoutts.github.io/atom.xml" rel="self"/>
+ <link href="http://danielcoutts.github.io/"/>
+ <updated>2017-04-23T22:54:13+01:00</updated>
+ <id>http://danielcoutts.github.io</id>
  <author>
    <name></name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Placeholder Post</title>
-   <link href="/2012/02/07/example-content/"/>
+   <link href="http://danielcoutts.github.io/2012/02/07/example-content/"/>
    <updated>2012-02-07T00:00:00+00:00</updated>
-   <id>/2012/02/07/example-content</id>
+   <id>http://danielcoutts.github.io/2012/02/07/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
