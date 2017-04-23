@@ -1,0 +1,115 @@
+/* My Theme */
+.theme-base-10 .sidebar {
+  background-color: #455a64;
+}
+.theme-base-10 .content a, .theme-base-10 .related-posts li a:hover {
+  color: #1c313a;
+}
+
+/* Nav bar CSS */
+.content {
+  padding-top: 0;
+}
+
+.top-nav-bar {
+  font-size: 1.25rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-family: "Poppins", serif;
+
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+}
+@media (min-width: 48em) {
+  .top-nav-bar {
+    text-align: left;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.top-nav-bar a {
+  margin: 0 0.5rem;
+}
+
+.top-nav-bar a:first-of-type {
+  margin-left: 0;
+}
+
+.top-nav-bar a:last-of-type {
+  margin-right: 0;
+}
+
+.top-nav-bar a.active {
+  font-weight: bold;
+}
+
+/* Project Summary CSS */
+.project-summary {
+  margin-bottom: 1rem;
+  text-align: justify;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.project-summary h1 {
+  margin-top: 0;
+}
+
+/* Project Links CSS */
+.project-links {
+  list-style: none;
+  padding: 0.75rem 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  margin-bottom: 1rem;
+}
+@media (min-width: 48em) {
+  .project-links {
+    margin-bottom: 2rem;
+  }
+}
+
+.project-links li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.project-links:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Project Images CSS */
+.project-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+@media (min-width: 48em) {
+  .project-images {
+    margin-bottom: 2rem;
+  }
+}
+
+.project-images div {
+  display: inline-block;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  height: 100%
+}
+.project-images div:first-of-type {
+  padding-left: 0;
+}
+.project-images div:last-of-type {
+  padding-right: 0;
+}
+
+.project-images div img {
+  width: 100%;
+  margin: 0;
+}
